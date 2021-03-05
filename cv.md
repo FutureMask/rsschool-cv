@@ -10,5 +10,5 @@ while(first->next->next != NULL){
 }
 first->next=NULL;
 ```
-6. 
+6. none
 7. Pre-intermediate (А2)
