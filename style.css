@@ -1,0 +1,56 @@
+   body{
+        background: #333;
+        color: #fc0;
+       }
+header {
+        font-family: Lobster, cursive;
+        position: absolute;
+        width: 200px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+      section {
+        position: absolute;
+        width: 700px;
+        left: 0;
+        right: 0;
+        top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      main {
+        position: absolute;
+        width: 700px;
+        left: 0;
+        right: 0;
+        top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      main a {
+ 	text-decoration: none;
+ 	color: #fc0;
+      }
+      figure {
+        position: absolute;
+        width: 250px;
+        left: 0;
+        right: 0;
+        top: 700px;
+        margin-left: auto;
+        margin-right: auto;
+	text-align: center;
+      }
+      footer {
+        position: absolute;
+        width: 700px;
+        left: 0;
+        right: 0;
+        bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
