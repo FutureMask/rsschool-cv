@@ -30,6 +30,10 @@ header {
         margin-left: auto;
         margin-right: auto;
       }
+      main a {
+ 	text-decoration: none;
+ 	color: #fc0;
+      }
       figure {
         position: absolute;
         width: 250px;
