@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    height: 780px;
+    background-color: black;
+    background-image: url(wild.jpg);
+    width: 100%;
+    background-size: cover;
+    display: flex;
+   position: static;
+}
+.wrapper{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+  
+}
+.header__content_position {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 70px;
+    height: 60px;
+}
+.logo__text {
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 80px;
+}
+.logo h1{
+    color: #F7F7F7;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 80px; 
+}
+.list{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding: 30px 0;
+    list-style-type: none;
+}
+.list__inline{
+    font-family: Open Sans;
+    color: #F7F7F7;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 60px;
+}
+.list a{
+    text-decoration: none;
+  color: #F7F7F7;
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 23px;
+line-height: 27px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+/*
+header{
+    position: absolute;
+    width: 1440px;
+    height: 780px;
+    left: 0px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: -1px;
+    
+    
+    background: #02160B;
+    border-radius: 0px;
+    background: url(wild.jpg);
+filter: drop-shadow(-150px 0px 150px #02160B);
+border-radius: 0px;
+
+}
+
+logo{
+    position: absolute;
+width: 155px;
+height: 60px;
+left: 205px;
+top: 19px;
+
+/* Logo */
+/*
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 60px;
+/* identical to box height, or 187% */
+
+/* text-transform: uppercase;
+
+/* font-light */
+/*
+color: #F7F7F7;
+}
+logo2{
+    position: absolute;
+width: 70px;
+height: 60px;
+left: 120px;
+top: 19px;
+
+border-radius: 0px;
+}
